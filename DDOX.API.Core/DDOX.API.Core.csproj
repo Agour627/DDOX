@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="BarcodeLib" Version="2.4.0" />
+	  <PackageReference Include="Serilog.AspNetCore" Version="4.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DDOX.API.Repository\DDOX.API.Repository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BarcodeLib.BarcodeReader">
+      <HintPath>..\Includes\BarcodeLib.BarcodeReader.dll</HintPath>
+    </Reference>
+    <Reference Include="RestrictionLibrary">
+      <HintPath>..\Includes\RestrictionLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

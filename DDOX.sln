@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDOX.API", "DDOX.API\DDOX.API.csproj", "{23111CAB-B096-4AC9-8283-33BADBEC29CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDOX.API.Infrastructure", "DDOX.API.Infrastructure\DDOX.API.Infrastructure.csproj", "{08C0EE8C-34AE-43F1-AB36-F3E27E7F6FFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDOX.API.Repository", "DDOX.API.Repository\DDOX.API.Repository.csproj", "{787C09E7-5F16-47AE-9E0D-C53BF68BF1CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDOX.API.Core", "DDOX.API.Core\DDOX.API.Core.csproj", "{806E073A-78C7-49B0-B1C4-3411B8261793}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDOX.API.Test", "DDOX.API.Test\DDOX.API.Test.csproj", "{8A672013-2A3D-40C3-9061-535936A11178}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23111CAB-B096-4AC9-8283-33BADBEC29CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23111CAB-B096-4AC9-8283-33BADBEC29CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23111CAB-B096-4AC9-8283-33BADBEC29CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23111CAB-B096-4AC9-8283-33BADBEC29CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08C0EE8C-34AE-43F1-AB36-F3E27E7F6FFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08C0EE8C-34AE-43F1-AB36-F3E27E7F6FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08C0EE8C-34AE-43F1-AB36-F3E27E7F6FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08C0EE8C-34AE-43F1-AB36-F3E27E7F6FFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{787C09E7-5F16-47AE-9E0D-C53BF68BF1CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787C09E7-5F16-47AE-9E0D-C53BF68BF1CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787C09E7-5F16-47AE-9E0D-C53BF68BF1CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787C09E7-5F16-47AE-9E0D-C53BF68BF1CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{806E073A-78C7-49B0-B1C4-3411B8261793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{806E073A-78C7-49B0-B1C4-3411B8261793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{806E073A-78C7-49B0-B1C4-3411B8261793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{806E073A-78C7-49B0-B1C4-3411B8261793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A672013-2A3D-40C3-9061-535936A11178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A672013-2A3D-40C3-9061-535936A11178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A672013-2A3D-40C3-9061-535936A11178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A672013-2A3D-40C3-9061-535936A11178}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B1340BA-F4D1-49FC-BD20-2924B1D93813}
+	EndGlobalSection
+EndGlobal
